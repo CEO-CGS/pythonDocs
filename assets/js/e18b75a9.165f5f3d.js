@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpython_docs=self.webpackChunkpython_docs||[]).push([[467],{8078:function(o){o.exports=JSON.parse('{"allTagsPath":"/pythonDocs/blog/tags","slug":"/pythonDocs/blog/tags/facebook","name":"facebook","count":1,"permalink":"/pythonDocs/blog/tags/facebook"}')}}]);

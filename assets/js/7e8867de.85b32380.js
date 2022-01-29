@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpython_docs=self.webpackChunkpython_docs||[]).push([[24],{5391:function(o){o.exports=JSON.parse('{"allTagsPath":"/pythonDocs/blog/tags","slug":"/pythonDocs/blog/tags/hello","name":"hello","count":2,"permalink":"/pythonDocs/blog/tags/hello"}')}}]);
