@@ -4,7 +4,6 @@ sidebar_position: 3
 
 # Intro to Python Notes #1
 
-
 ## Data Types
 
 ### String
