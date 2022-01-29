@@ -9,7 +9,7 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://ceo-cgs.github.io/pythonDocs',
-  baseUrl: '/',
+  baseUrl: '/pythonDocs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   deploymentBranch: 'master',
