@@ -6,8 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Intro to Python',
   url: 'https://ceo-cgs.github.io/',
   baseUrl: '/pythonDocs/',
   onBrokenLinks: 'throw',
@@ -26,13 +25,17 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://ceo-cgs.github.io/pythonDocs/',
+        },
+        gtag: {
+          trackingID: '141789564',
+          anonymizeIP: true,
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://ceo-cgs.github.io/pythonDocs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -45,7 +48,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Intro to Python',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -65,11 +68,28 @@ const config = {
           },
         ],
       },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+        switchConfig: {
+          darkIcon: ' ',
+          darkIconStyle: {
+            marginLeft: '2px',
+          },
+          // Unicode icons such as '\u2600' will work
+          // Unicode with 5 chars require brackets: '\u{1F602}'
+          lightIcon: ' ',
+          lightIconStyle: {
+            marginLeft: '1px',
+          },
+        },
+      },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Tutorials',
             items: [
               {
                 label: 'Tutorial',
@@ -77,7 +97,7 @@ const config = {
               },
             ],
           },
-          {
+         /*  {
             title: 'Community',
             items: [
               {
@@ -93,22 +113,22 @@ const config = {
                 href: 'https://twitter.com/docusaurus',
               },
             ],
-          },
+          },*/
           {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
+           // title: 'More',
+          //  items: [
+          //    {
+          //      label: 'Blog',
+           //      to: '/blog',
+          //     },
+          //     {
+          //       label: 'GitHub',
+         //        href: 'https://github.com/facebook/docusaurus',
+         //      },
+         //    ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
         theme: lightCodeTheme,

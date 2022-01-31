@@ -53,10 +53,8 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+        <div className="row" style={{alignContent:'center',textAlign:'center', justifyContent:'center'}}>
+          Learn Python through step-by-step learning notes and hands-on projects.
         </div>
       </div>
     </section>
