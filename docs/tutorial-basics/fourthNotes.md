@@ -9,8 +9,8 @@ A function is a way for a programmer to run multiple commands using one line.  T
 
 A function consists of three parts in Python:
 
-**Function header** - The function's name that will have to be called in order to run the function. 
-**Function parameters** - The function's parametets are values that are passed into the function for it to use.
+**Function header** - The function's name that will have to be called in order to run the function. <br/>
+**Function parameters** - The function's parametets are values that are passed into the function for it to use. <br/>
 **Function body** - The actual lines of code the function will run.  The function body can use any parameters that are passed when calling the function.
 
 Here is an example of a function:
